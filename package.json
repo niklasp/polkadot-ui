@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "registry:build": "node ~/code/shadcn/ui/packages/shadcn/dist/index.js build"
+    "registry:build": "node ~/code/shadcn/ui/packages/shadcn/dist/index.js build",
+    "postinstall": "pnpm papi"
   },
   "dependencies": {
     "@polkadot-api/descriptors": "file:.papi/descriptors",
