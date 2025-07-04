@@ -4,6 +4,34 @@
   "homepage": "https://acme.com",
   "items": [
     {
+      "name": "address-input",
+      "type": "registry:component",
+      "title": "Address Input",
+      "description": "A address input component with validation for SS58 addresses",
+      "registryDependencies": ["input", "label", "button"],
+      "dependencies": ["zod", "@polkadot/util-crypto", "@polkadot/util"],
+      "files": [
+        {
+          "path": "registry/new-york/blocks/address-input/address-input.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "registry/new-york/blocks/address-input/util.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/new-york/blocks/reactive-dot.config.ts",
+          "type": "registry:file",
+          "target": "~/reactive-dot.config.ts"
+        },
+        {
+          "path": "registry/new-york/blocks/reactive-dot.d.ts",
+          "type": "registry:file",
+          "target": "~/reactive-dot.d.ts"
+        }
+      ]
+    },
+    {
       "name": "hello-world",
       "type": "registry:component",
       "title": "Hello World",
