@@ -106,7 +106,6 @@ export function AddressInput({
       <div className="relative flex w-full items-center gap-2">
         <ConnectionStatusIndicator
           status={connectionStatus}
-          error={null}
           className="absolute -left-0.5 -top-0.5"
         />
         <Input

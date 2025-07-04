@@ -3,11 +3,11 @@ import { WsEvent } from "polkadot-api/ws-provider/web";
 
 export function ConnectionStatusIndicator({
   status,
-  error,
+  // error,
   className,
 }: {
   status: WsEvent;
-  error: Error | null;
+  // error: Error | null;
   className?: string;
 }) {
   return (
